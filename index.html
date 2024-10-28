@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <audio autoplay>
+        <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+   <div class="container">
+    <div class="enveloppe-wrapper">
+        <div class="enveloppe">
+            <div class="letter">
+                <div class="text">
+                    <strong>To my Ali,</strong>
+                    <p>I only ever thought there were two types of loves, 
+                        the kind you'd kill for and the kind you'd die for. But you, my love, 
+                        you are the kind I would live for. I appreciate you more than words can describe it,
+                        i'll always be there with you, pinky promise <3 happy 6 months - emmy
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div> 
+    </div>
+   </div> 
+   <script>
+        const enveloppe = document.querySelector('.enveloppe-wrapper');
+        enveloppe.addEventListener('click', () => {
+            enveloppe.classList.toggle('flap');
+        });
+   </script>
+</body>
+</html>
